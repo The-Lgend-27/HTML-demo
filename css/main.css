@@ -61,6 +61,13 @@ ul {
   color: whitesmoke;
 }
  
-.mypics {
-  
+ .mypics img {
+  margin-left: 100px;
+  margin-right: 60px;
+  padding: 10px;
+  background-color: rgb(18, 204, 241);
+}
+
+.mypics img:first-child{
+  margin-left:140px;
 }
