@@ -2,9 +2,9 @@
 console.log("proof of life, so that know our js is connected up.");
 
 let userName = prompt("What is your name?");
-
+console.log("user name: ", userName);
 let confirmMessage = confirm("Do you want to continue?");
-//chaining methods/functions  
+console.log("confirm message: ", confirmMessage);  
 let userCar = prompt("Whats your favorite car manufacturer").toLowerCase();
 console.log("🚀 ~ file: app.js:9 ~ userCar:", userCar);
 
