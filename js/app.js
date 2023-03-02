@@ -1,26 +1,36 @@
 "use strict";
 console.log("proof of life, so that know our js is connected up.");
 
-// Add at least 3 dynamic components to your web page. These can be based on user input, or other dynamic input data.
-
-// At least one dynamic component should be based on user input.
-
-// At least one dynamic component should use a conditional statement to determine the output.
-
-
 let userName = prompt("What is your name?");
-console.log("user name: ", userName);
 
 let confirmMessage = confirm("Do you want to continue?");
-console.log("confirm message: ", confirmMessage);
+//chaining methods/functions  
+let userCar = prompt("Whats your favorite car manufacturer").toLowerCase();
+console.log("🚀 ~ file: app.js:9 ~ userCar:", userCar);
 
-let userCar = prompt("Whats your favorite car manufacturer");
-console.log("car manufacturer: ", userCar);
+//JEEP
 
-if (userCar === "porsche") 
-{
-    response = "good taste";
+                    //JEEP making it lowercase to compare the right value in our if / else conditional.
+// let lowerCaseCar = userCar.toLowerCase();
+
+// console.log('lower case? ',lowerCaseCar);
+
+
+//declare variable so that it has a space in memory to store the response.
+
+let response;
+
+if (userCar === "porsche") {
+  response = "good taste";
+} else if (userCar === "jeep") {
+  response = "cool I like jeeps.";
+} else if (userCar === "tesla") {
+  response = "electric cars are futuristic";
+} else {
+  response = "I love bikes!";
 }
+
+console.log("response", response);
 
 // console.log("greeting", greeting);
 
