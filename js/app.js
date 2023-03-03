@@ -34,3 +34,11 @@ console.log("🚀 ~ file: app.js:40 ~ userInput:", typeof userInput);
 
 let userInputParsed = parseInt(userInput);
 console.log("🚀 ~ file: app.js:43 ~ userInputParsed:", userInputParsed);
+
+if (!isNaN(userInputParsed)) {
+    console.log("we have a valid number!");
+} else {
+    userInputParsed = parseInt(prompt("How many images would you like to see?"));
+  }
+
+  console.log(userInputParsed, typeof userInputParsed);
